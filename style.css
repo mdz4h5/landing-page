@@ -48,7 +48,6 @@ a {
     height: 225px;
 }
 
-
 .right-hero-container {
     background-color: gray;
     display: flex;
@@ -78,3 +77,41 @@ button {
     padding: 8px 24px;
 }
 
+/* beginning of information section */
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.primary-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+}
+
+.image-holder {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #1F2937;
+}
