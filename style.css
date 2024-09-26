@@ -75,6 +75,8 @@ button {
     border: none;
     border-radius: 8px;
     padding: 8px 24px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* beginning of information section */
@@ -90,8 +92,9 @@ button {
 .primary-container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 72px;
     text-align: center;
+    margin-bottom: 64px;
 }
 
 .image-container {
@@ -114,4 +117,69 @@ button {
 
 .text {
     color: #1F2937;
+}
+
+/* end of information section */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 80px 240px;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* end of quote section */
+
+/*.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.blue-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 128px;
+    padding: 64px;
+    border-radius: 10px;
+}
+
+.blue-left-container {
+    color: #F9FAF8;
+}
+
+.blue-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.blue-main-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* end of call to action section */
+
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
